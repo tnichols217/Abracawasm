@@ -32,4 +32,5 @@
 *.app
 *.wasm
 
-bin/*
+bin/
+**/node_modules/
