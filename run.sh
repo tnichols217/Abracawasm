@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 sh build.sh
-clear
-
+cd source
+cd server
+nodemon

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A C++/WASM web based client side ray-tracing engine",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/tnichols217/Abracawasm#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-fetch": "^3.0.0",
+    "npm": "^7.22.0"
   }
 }
