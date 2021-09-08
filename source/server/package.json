@@ -1,0 +1,22 @@
+{
+  "name": "abracawasm",
+  "version": "1.0.0",
+  "description": "A C++/WASM web based client side ray-tracing engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnichols217/Abracawasm.git"
+  },
+  "author": "Trevor Nichols, Jack Miller",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tnichols217/Abracawasm/issues"
+  },
+  "homepage": "https://github.com/tnichols217/Abracawasm#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
