@@ -1,4 +1,3 @@
-cd ..
 call build.bat
 @echo OFF
 cd source

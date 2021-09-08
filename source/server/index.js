@@ -1,5 +1,5 @@
 import Express from "express"
-import fetch from "node-fetch"
+
 var serv = Express()
 
 serv.listen(4000, () => {
