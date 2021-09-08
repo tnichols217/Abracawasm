@@ -55,6 +55,7 @@ _deps
 *.out
 *.app
 *.wasm
+abracawasm.js
 
 # Compiled directory
 bin/
