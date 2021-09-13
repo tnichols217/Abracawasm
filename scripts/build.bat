@@ -1,5 +1,8 @@
 @echo off
 cd ..
+echo [32m===CLEARING=== [0m && ^
+rmdir /S .\bin
+
 echo [32m===BUILDING=== [0m && ^
 call emcmake cmake -S .\source\WASM -B .\bin
 

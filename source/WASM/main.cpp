@@ -38,6 +38,6 @@ extern "C" {
 
 int main() {
 	int A[] = {1, 2, 3};
-	abracawasm::Vector<int, 3> a = abracawasm::Vector<int,3>(A);
-	std::cout << A;
+	abracawasm::Vector<int> B = abracawasm::Vector<int>({1, 2, 3}, 3);
+	std::cout << B;
 }
